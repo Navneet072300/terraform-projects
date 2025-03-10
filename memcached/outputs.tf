@@ -1,4 +1,3 @@
-
-output "example_output" {
-  value = aws_elasticache_cluster.example.id.arn
+output "elasticache_cluster_endpoint" {
+  value       = aws_elasticache_cluster.demo_cluster.arn
 }
