@@ -15,8 +15,8 @@ Ensure you have the following installed:
 ## Deployment Steps
 1. **Clone the Repository:**
    ```sh
-   [git clone https://github.com/Navneet072300/postgresql-rds-terraform.git](https://github.com/Navneet072300/terraform-projects/tree/main/database)
-   cd postgresql-rds-terraform
+   (https://github.com/Navneet072300/terraform-projects/tree/main/database)
+   cd database
    ```
 2. **Initialize Terraform:**
    ```sh
