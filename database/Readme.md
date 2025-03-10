@@ -15,7 +15,7 @@ Ensure you have the following installed:
 ## Deployment Steps
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/yourusername/postgresql-rds-terraform.git
+   git clone https://github.com/Navneet072300/postgresql-rds-terraform.git
    cd postgresql-rds-terraform
    ```
 2. **Initialize Terraform:**
@@ -44,6 +44,7 @@ To delete all resources:
 ```sh
 terraform destroy -auto-approve
 ```
+<img width="1145" alt="Screenshot 2025-03-10 at 5 51 37 PM" src="https://github.com/user-attachments/assets/016016a8-8050-43c3-8d84-72a652e9b454" />
 
 ## Security Best Practices
 - Avoid using `0.0.0.0/0` in security groups for production.
