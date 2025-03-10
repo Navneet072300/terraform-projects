@@ -9,8 +9,8 @@ resource "aws_db_instance" "postgres" {
   engine                = "postgres"
   engine_version        = "15.4"  # Use latest version available
   instance_class        = "db.t3.micro"
-  username             = "adminuser"   # Change as needed
-  password             = "SecurePassword123!"  # Change as needed
+  username             = ""   # Change as needed
+  password             = ""  # Change as needed
   publicly_accessible   = true  # Set to false for private access
   skip_final_snapshot   = true
   db_subnet_group_name  = aws_db_subnet_group.postgres_subnet_group.name
