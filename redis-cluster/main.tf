@@ -10,7 +10,7 @@ resource "aws_elasticache_cluster" "redis_db" {
   engine               = "redis"
   node_type            = "cache.m4.large"
   num_cache_nodes      = 1
-  engine_version       = "7.1.0"
+  engine_version       = "7.1"
   port                 = 6379
   tags = {
     Name = "myrediscluster"
