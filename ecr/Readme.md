@@ -1,7 +1,3 @@
-Here's a README file for creating an Amazon Elastic Container Registry (ECR) in AWS using Terraform, based on the provided information and structured for clarity:
-
----
-
 # Create Amazon ECR Repository with Terraform
 
 This project provides a Terraform configuration to create an Amazon Elastic Container Registry (ECR) repository in AWS. The setup includes basic files to define the infrastructure, variables, and provider configuration.
