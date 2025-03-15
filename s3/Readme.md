@@ -19,9 +19,9 @@ This project uses Terraform to create a new AWS S3 bucket and import an existing
 
 ## Prerequisites
 
-- AWS account with credentials (access key: `AKIAWOAVSMTW5NSLVQVV`).
+- AWS account with credentials.
 - Terraform installed.
-- Existing bucket `terraform-s3buc` in `ap-south-1` (create manually if needed).
+- Existing bucket (create manually if needed).
 
 ## Project Structure
 
