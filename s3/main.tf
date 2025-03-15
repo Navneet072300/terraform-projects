@@ -1,4 +1,3 @@
-# Define the AWS provider
 provider "aws" {
   region     = var.region
   access_key = var.access_key
@@ -12,10 +11,10 @@ resource "aws_s3_bucket" "new_bucket" {
     Name        = "New Terraform S3 Bucket"
     Environment = "Dev"
   }
-  force_destroy = true  # Allows bucket to be destroyed even if it contains objects
+  force_destroy = true
 }
 
-# Resource block for importing an existing S3 bucket
+# Manage an existing S3 bucket
 resource "aws_s3_bucket" "imported_bucket" {
   bucket = var.existing_bucket_name
   tags = {
